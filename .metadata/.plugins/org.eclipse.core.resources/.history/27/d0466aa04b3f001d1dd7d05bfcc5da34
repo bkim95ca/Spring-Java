@@ -1,0 +1,9 @@
+package com.brandon.devdemo.models;
+
+public class BackEndDev extends Developer{
+
+	public BackEndDev() {
+		
+	}
+
+}

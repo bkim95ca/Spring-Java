@@ -1,0 +1,17 @@
+package com.brandon.interfacedemo.interfaces;
+
+public interface Keepable {
+	//default
+	public default void play() {
+		System.out.println("playing....");
+	}
+	// abstract
+	abstract void showAffection() {
+		System.out.println("Meow");
+	};
+	
+	abstract void askForFood();
+	
+	
+
+}

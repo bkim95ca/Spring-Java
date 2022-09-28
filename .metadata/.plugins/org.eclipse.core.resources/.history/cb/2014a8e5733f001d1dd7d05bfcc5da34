@@ -1,0 +1,11 @@
+package com.brandon.interfacedemo.models;
+
+public class Cat {
+
+	public Cat() {}
+	
+	public Cat(String name) {
+		super(name);
+	}
+
+}

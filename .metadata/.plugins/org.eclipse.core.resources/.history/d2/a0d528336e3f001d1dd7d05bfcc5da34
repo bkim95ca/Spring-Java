@@ -1,0 +1,11 @@
+package com.brandon.zookeeper.models;
+
+public class Gorilla {
+
+	public Gorilla() {
+		super();
+	}
+	
+	
+
+}

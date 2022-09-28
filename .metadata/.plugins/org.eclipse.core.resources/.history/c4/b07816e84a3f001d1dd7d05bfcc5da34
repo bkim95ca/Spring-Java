@@ -1,0 +1,88 @@
+package com.brandon.devdemo.models;
+import java.util.ArrayList;
+
+public class Developer {
+	//attributes
+	private String name;
+    private int yearsOfExp;
+    private double hoursOfSleep;
+    private ArrayList<String> languages;
+    private static int devCount;
+    private static int totalYearsOfExp;
+    private static int totalProjects;
+
+    //constructor
+    public Developer() {
+        this.name = "somebody";
+        this.languages = new ArrayList<String>();
+        devCount++;
+    }
+
+    public Developer(String name, int yearsOfExp, double hoursOfSleep) {
+        this.name = name;
+        this.yearsOfExp = yearsOfExp;
+        this.hoursOfSleep = hoursOfSleep;
+        this.languages = new ArrayList<String>();
+        devCount++;
+        totalYearsOfExp += yearsOfExp; 
+    }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getYearsOfExp() {
+		return yearsOfExp;
+	}
+
+	public void setYearsOfExp(int yearsOfExp) {
+		this.yearsOfExp = yearsOfExp;
+	}
+
+	public double getHoursOfSleep() {
+		return hoursOfSleep;
+	}
+
+	public void setHoursOfSleep(double hoursOfSleep) {
+		this.hoursOfSleep = hoursOfSleep;
+	}
+
+	public ArrayList<String> getLanguages() {
+		return languages;
+	}
+
+	public void setLanguages(ArrayList<String> languages) {
+		this.languages = languages;
+	}
+
+	public static int getDevCount() {
+		return devCount;
+	}
+
+	public static void setDevCount(int devCount) {
+		Developer.devCount = devCount;
+	}
+
+	public static int getTotalYearsOfExp() {
+		return totalYearsOfExp;
+	}
+
+	public static void setTotalYearsOfExp(int totalYearsOfExp) {
+		Developer.totalYearsOfExp = totalYearsOfExp;
+	}
+
+	public static int getTotalProjects() {
+		return totalProjects;
+	}
+
+	public static void setTotalProjects(int totalProjects) {
+		Developer.totalProjects = totalProjects;
+	}
+	
+	
+
+}

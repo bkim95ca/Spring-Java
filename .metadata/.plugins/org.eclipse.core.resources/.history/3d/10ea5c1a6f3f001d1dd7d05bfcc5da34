@@ -1,0 +1,13 @@
+package com.brandon.zookeeper;
+import com.brandon.zookeeper.models.Mammal;
+import com.brandon.zookeeper.models.Gorilla;
+
+public class TestZooKeeper {
+
+	public static void main(String[] args) {
+		Mammal mammal1 = new Mammal(13);
+		mammal1.displayEnergy();
+		mammal1.throwSomething();
+	}
+
+}

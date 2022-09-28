@@ -1,0 +1,7 @@
+package com.brandon.interfacedemo;
+
+public class InterfaceDemoApplication {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.brandon.zookeeper;
+
+public class Mammal {
+	private int energyLevel;
+	
+	//constructor
+	public Mammal() {
+		
+	}
+}

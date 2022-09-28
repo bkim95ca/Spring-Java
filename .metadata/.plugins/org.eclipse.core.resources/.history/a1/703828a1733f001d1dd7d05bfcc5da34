@@ -1,0 +1,12 @@
+package com.brandon.interfacedemo.models;
+
+public class Pet {
+	//attributes
+	private String name;
+	private String type;
+	
+	public Pet() {
+		
+	}
+
+}

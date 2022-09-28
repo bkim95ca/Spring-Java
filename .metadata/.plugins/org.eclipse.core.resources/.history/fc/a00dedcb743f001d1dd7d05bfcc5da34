@@ -1,0 +1,25 @@
+package com.brandon.interfacedemo.models;
+
+import com.brandon.interfacedemo.interfaces.Keepable;
+
+public class Dog extends Pet implements Keepable{
+
+	public Dog() {}
+	
+	public Dog(String name) {
+		super(name);
+	}
+
+	@Override
+	public void showAffection() {
+		System.out.println("Licks....");		
+	}
+
+	@Override
+	public void askForFood() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

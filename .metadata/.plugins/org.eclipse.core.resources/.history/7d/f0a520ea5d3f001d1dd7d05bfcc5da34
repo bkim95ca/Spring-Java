@@ -1,0 +1,9 @@
+package com.brandon.zookeeper;
+
+public class TestZooKeeper {
+
+	public static void main(String[] args) {
+		Mammal mammal1 = new Mammal();
+	}
+
+}

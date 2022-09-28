@@ -1,0 +1,5 @@
+package com.brandon.interfacedemo.interfaces;
+
+public class Keepable {
+
+}

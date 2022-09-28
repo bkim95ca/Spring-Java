@@ -1,0 +1,12 @@
+package com.brandon.abstractdemo;
+
+import com.brandon.abstractdemo.models.Cash;
+
+public class AbstractDemoApplication {
+
+	public static void main(String[] args) {
+//		Payment pay = new Payment();
+		Cash puppy = new Cash();
+	}
+
+}

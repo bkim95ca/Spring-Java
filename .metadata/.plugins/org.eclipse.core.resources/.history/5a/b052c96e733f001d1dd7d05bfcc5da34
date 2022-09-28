@@ -1,0 +1,11 @@
+package com.brandon.interfacedemo.models;
+
+public class Pet {
+	//attributes
+	protected String name;
+	
+	public Pet() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

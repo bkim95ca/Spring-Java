@@ -1,0 +1,13 @@
+package com.brandon.devdemo.models;
+
+public class BackEndDev extends Developer{
+
+	public BackEndDev() {
+		super();
+	}
+	
+	public BackEndDev(String name) {
+		super(name);
+	}
+
+}

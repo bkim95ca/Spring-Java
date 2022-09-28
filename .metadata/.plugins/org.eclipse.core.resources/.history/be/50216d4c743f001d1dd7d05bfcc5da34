@@ -1,0 +1,18 @@
+package com.brandon.interfacedemo.interfaces;
+
+public class Keepable {
+	//default
+	public default void play() {
+		System.out.println("playing....");
+	}
+	// abstract
+	@Override
+	abstract void showAffection() {
+		System.out.println("Meow");
+	};
+	
+	abstract void askForFood();
+	
+	
+
+}

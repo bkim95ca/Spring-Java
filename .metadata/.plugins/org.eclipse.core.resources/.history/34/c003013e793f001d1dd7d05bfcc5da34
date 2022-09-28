@@ -1,0 +1,20 @@
+package com.brandon.abstractdemo.models;
+
+import com.brandon.abstractdemo.abstracts.Payment;
+
+public class CreditCard extends Payment {
+	
+	private String cardNum, cardHolder, expDate;
+	
+	public CreditCard(double amount, String cardNum, String cardHolder, String expDate) {
+		super(amount);
+		this.cardNum = cardNum;
+		this.cardHolder = cardHolder;
+		this.expDate = expDate;
+	}
+	
+	@Override
+	public void paymentDetails() {
+		System.out.printf("Card Number: %s\n Cardholder name: %s\n Expiration Date: %s\n");
+	}
+}

@@ -1,0 +1,12 @@
+package com.brandon.abstractdemo;
+
+import com.brandon.abstractdemo.abstracts.Payment;
+
+public class AbstractDemoApplication {
+
+	public static void main(String[] args) {
+//		Payment pay = new Payment();
+		Cash cash = new Cash();
+	}
+
+}

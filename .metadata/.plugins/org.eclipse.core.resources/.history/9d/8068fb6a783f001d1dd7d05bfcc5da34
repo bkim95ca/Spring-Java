@@ -1,0 +1,11 @@
+package com.brandon.abstractdemo.models;
+
+public class CreditCard {
+	
+	
+	
+	public CreditCard() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.brandon.zookeeper;
+import com.brandon.zookeeper.models.Mammal;
+
+public class TestZooKeeper {
+
+	public static void main(String[] args) {
+		Mammal mammal1 = new Mammal();
+		mammal1.displayEnergy();
+	}
+
+}

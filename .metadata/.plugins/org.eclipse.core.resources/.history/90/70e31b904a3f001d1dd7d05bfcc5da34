@@ -1,0 +1,18 @@
+package com.brandon.devdemo.models;
+
+public class Developer {
+	
+	private String name;
+    private int yearsOfExp;
+    private double hoursOfSleep;
+    private ArrayList<String> languages;
+    private ArrayList<Project> projects;
+    private static int devCount;
+    private static int totalYearsOfExp;
+    private static int totalProjects;
+
+	public Developer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

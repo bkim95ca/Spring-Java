@@ -1,0 +1,33 @@
+package com.brandon.devdemo.models;
+
+public class BackEndDev extends Developer{
+	
+	boolean cssSkills; 
+	
+	public BackEndDev() {
+		super("back end dev default name");
+		this.cssSkills = false;
+	}
+	
+	public BackEndDev(String name) {
+		super(name);
+		this.name = name;
+		this.cssSkills = false;
+	}
+	
+	public BackEndDev(String name, boolean cssSkills) {
+		super(name);
+		this.name = name;
+		this.cssSkills = cssSkills;
+	}
+
+	public boolean isCssSkills() {
+		return cssSkills;
+	}
+
+	public void setCssSkills(boolean cssSkills) {
+		this.cssSkills = cssSkills;
+	}
+
+
+}

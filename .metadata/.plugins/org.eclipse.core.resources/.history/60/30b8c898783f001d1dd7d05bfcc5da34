@@ -1,0 +1,11 @@
+package com.brandon.abstractdemo.models;
+
+public class CreditCard {
+	
+	private String cardNum, cardHolder, expDate;
+	
+	public CreditCard(double amount, String cardNum, String cardHolder, String expDate) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

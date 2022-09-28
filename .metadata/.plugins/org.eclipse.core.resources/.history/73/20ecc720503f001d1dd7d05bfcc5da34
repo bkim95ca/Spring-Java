@@ -1,0 +1,43 @@
+package com.brandon.devdemo.models;
+
+public class BackEndDev extends Developer{
+	
+	boolean cssSkills; 
+	
+	public BackEndDev() {
+		super("back end dev default name");
+		this.cssSkills = false;
+		this.setHoursOfSleep(2);
+	}
+	
+	public BackEndDev(String name) {
+		super(name);
+		this.name = name;
+		this.cssSkills = false;
+		this.setHoursOfSleep(2);
+	}
+	
+	public BackEndDev(String name, boolean cssSkills) {
+		super(name);
+		this.name = name;
+		this.cssSkills = cssSkills;
+		this.setHoursOfSleep(2);
+	}
+
+	public boolean isCssSkills() {
+		return cssSkills;
+	}
+
+	public void setCssSkills(boolean cssSkills) {
+		this.cssSkills = cssSkills;
+	}
+
+	public void displayStatus() {
+		super.displayStatus();
+		System.out.println("CSS Skills: "  + (this.cssSkills ? "No" : "Yes I love it" ));
+	}
+	
+	public void giveMoreSleep(int hours) {
+		int currentHoursOfSleep = (int) this.getHoursOfSleep();
+	}
+}

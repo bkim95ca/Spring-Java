@@ -1,0 +1,18 @@
+package com.brandon.devdemo.models;
+import java.util.ArrayList;
+
+public class Developer {
+	
+	private String name;
+    private int yearsOfExp;
+    private double hoursOfSleep;
+    private ArrayList<String> languages;
+    private static int devCount;
+    private static int totalYearsOfExp;
+    private static int totalProjects;
+
+	public Developer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

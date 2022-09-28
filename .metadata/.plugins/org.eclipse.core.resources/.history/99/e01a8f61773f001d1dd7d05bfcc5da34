@@ -1,0 +1,10 @@
+package com.brandon.abstractdemo.abstracts;
+
+public abstract class Payment {
+	
+	private double amount;
+	public Payment() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

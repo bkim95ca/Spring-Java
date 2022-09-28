@@ -1,0 +1,12 @@
+package com.brandon.devdemo;
+
+import com.robebrt.devdemo.models.BackEndDeveloper;
+
+public class DevDemoApplication {
+
+	public static void main(String[] args) {
+		BackEndDeveloper backEndDev1 = new BackEndDeveloper();
+
+	}
+
+}
